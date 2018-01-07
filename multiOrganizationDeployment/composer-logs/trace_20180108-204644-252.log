@@ -1,0 +1,6 @@
+2018-01-07T01:51:45.222Z ERROR   HLFConnectionManager    :fabric-client()          [Peer.js]: sendProposal - timed out after:300000 {}$
+2018-01-07T01:51:45.223Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: REQUEST_TIMEOUT
+    at Timeout._onTimeout (/usr/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:107:19)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5) {}$
